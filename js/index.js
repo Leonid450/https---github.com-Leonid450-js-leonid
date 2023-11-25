@@ -1,0 +1,31 @@
+// alert("Hello World");
+// console.log();
+// let userName = prompt("введите свое имя");
+// let huy = alert("Привет," + userName);
+const myFirstFunction = function () {
+  console.log("start function");
+};
+myFirstFunction();
+let number1 = 5;
+let number2 = 10;
+let sumNumber = number1 + number2;
+console.log(sumNumber);
+let number3 = sumNumber - 50;
+console.log(number3);
+number4 = number3 * sumNumber;
+console.log(number4);
+number5 = number4 / 2.687;
+console.log(number5);
+number6 = number5 % 2.687;
+console.log(number6);
+console.log(number6 > number5);
+
+let num = 5;
+num += 10;
+console.log(num);
+num *= 2;
+console.log(num);
+num -= 4;
+console.log(num);
+num /= 6;
+console.log(num);
