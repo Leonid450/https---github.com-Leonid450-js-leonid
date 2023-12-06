@@ -31,53 +31,79 @@
 // console.log(num);
 
 // homework conditions if
-let num1 = +prompt("Введіть перше число"),
-  num2 = +prompt("Введіть другее число");
-if (num1 > num2) {
-  console.log(num1);
-} else {
-  console.log(num2);
-}
-// ЦЕ Ж, ТІЛЬКИ З ПЕРЕВІРКОЮ
-const bigNumber = function () {
-  let num1 = +prompt("Введіть перше число");
-  if (num1 !== num1 || typeof num1 !== "number") {
-    return null;
-  }
-  let num2 = +prompt("Введіть друге число");
-  if (num2 !== num2 || typeof num2 !== "number") {
-    return null;
-  }
-  if (num1 > num2) {
-    return num1;
-  } else {
-    return num2;
-  }
-};
+// let num1 = +prompt("Введіть перше число"),
+//   num2 = +prompt("Введіть другее число");
+// if (num1 > num2) {
+//   console.log(num1);
+// } else {
+//   console.log(num2);
+// }
+// // ЦЕ Ж, ТІЛЬКИ З ПЕРЕВІРКОЮ
+// const bigNumber = function () {
+//   let num1 = +prompt("Введіть перше число");
+//   if (num1 !== num1 || typeof num1 !== "number") {
+//     return null;
+//   }
+//   let num2 = +prompt("Введіть друге число");
+//   if (num2 !== num2 || typeof num2 !== "number") {
+//     return null;
+//   }
+//   if (num1 > num2) {
+//     return num1;
+//   } else {
+//     return num2;
+//   }
+// };
 
-// Вік;
-let userAge = +prompt("Введіть ваш вік");
-if (userAge >= 18) {
-  console.log(adult);
-} else {
-  console.log(child);
-}
+// // Вік;
+// let userAge = +prompt("Введіть ваш вік");
+// if (userAge >= 18) {
+//   console.log(adult);
+// } else {
+//   console.log(child);
+// }
 
-// калькулятор
-let num1 = +prompt("Введіть перше число"),
-  num2 = +prompt("Введіть другее число"),
-  oper = +prompt(
-    "Введіть оператор: 1-додавання, 2-віднімання, 3-ділення, 4-множення"
-  );
+// // калькулятор
+// let num1 = +prompt("Введіть перше число"),
+//   num2 = +prompt("Введіть другее число"),
+//   oper = +prompt(
+//     "Введіть оператор: 1-додавання, 2-віднімання, 3-ділення, 4-множення"
+//   );
 
-if (oper === 1) {
-  alert(num1 + num2);
-} else if (oper === 2) {
-  alert(num1 - num2);
-} else if (oper === 3) {
-  alert(num1 / num2);
-} else if (oper === 4) {
-  alert(num1 * num2);
-} else {
-  alert("Невірне значення");
+// if (oper === 1) {
+//   alert(num1 + num2);
+// } else if (oper === 2) {
+//   alert(num1 - num2);
+// } else if (oper === 3) {
+//   alert(num1 / num2);
+// } else if (oper === 4) {
+//   alert(num1 * num2);
+// } else {
+//   alert("Невірне значення");
+// }
+
+//Знайти суму чисел у диапазоні від 1 до 100.
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//   sum += i;
+//   console.log(sum);
+// }
+// let sum = 0,
+//   i = 1;
+// while (i <= 100) {
+//   sum += i++;
+//   console.log(sum);
+// }
+
+// Розвяжіть рівняння:(2 + 2 * 2)
+// let i = 0;
+// while (i !== 6) {
+//   i = +prompt("Розвяжіть рівняння:(2 + 2 * 2) ");
+// }
+
+// for (let i = 0; i != 6; i = +prompt("Розвяжіть рівняння:(2 + 2 * 2) ")) {}
+
+// Обмежена кількість спроб
+for (let i = 0, a = 0; i != 6 || a < 4; i = 0, a++) {
+  i = +prompt("Розвяжіть рівняння:(2 + 2 * 2) ");
 }
